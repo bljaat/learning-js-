@@ -9,7 +9,13 @@ console.log(studentsName[0])                     // bhanwar lal       first valu
 console.log(studentsName[2] + " " + message) // roshan please deposit your fees, which is 1000 Rs.
 
 
+for (let i = 0; i < studentsName.length; i++) {
+    let result = studentsName[i];
+    console.log(result.slice(0, 1).toUpperCase()+ result.slice(1));
+}
 
+
+console.log(studentsName[0])
 
 
 //   for loop
@@ -30,10 +36,6 @@ console.log(studentsName[2] + " " + message) // roshan please deposit your fees,
 
 
 
-for (let i = 0; i < studentsName.length; i++) {
-    let result = studentsName[i];
-    console.log(result[0].toUpperCase()+ result.slice(1));
-}
 
 
 // for(let i = 0; i < studentsName.length; i++){
@@ -44,9 +46,9 @@ for (let i = 0; i < studentsName.length; i++) {
 
 
 
-// for(let i = 0; i < moneySaving.length; i++){
-//     console.log(moneySaving[i] - 50);
-// }
+for(let i = 0; i < moneySaving.length; i++){
+    console.log(moneySaving[i] - 50);
+}
 
 
 

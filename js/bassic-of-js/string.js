@@ -14,11 +14,11 @@ let stringTrim = name.trim()                // remove the space left and right s
 console.log(stringTrim.toUpperCase())       //Converting string to uppercase
 console.log(stringTrim.toLowerCase())       //Converting string to lowerCase 
 
-console.log(fullName.charAt(4))                //looking for character 4 in fullName
+console.log(fullName.charAt(4))             //looking for character 4 in fullName
 console.log(fullName.indexOf("w"))          //to find the index number based on given charachter
 
-console.log(fullName.substring(7, 11))      //to take the value form a string
-console.log(fullName.slice(7, 11))          //to take the value form a string
+console.log(fullName.substring(11))         // 11 number ke index ko htane ke liye
+console.log(fullName.slice(1))             // 11 number ke index ko htane ke liye
 
 console.log(fullName.replace("jaat", "dudi"))     //to replace some alphabet in string
 console.log(fullName.replaceAll("a", " "))          //to replace all the given all the character
