@@ -1,7 +1,7 @@
 // forEach loop in js
 
 // array.forEach( () => {} )
-// callback function = (() => {})
+// callback = (() => {})
 
 let studentName = ["bhanwar lal", "lokesh", "roshan"];
 
