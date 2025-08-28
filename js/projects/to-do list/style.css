@@ -1,0 +1,53 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+.container{
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+      background: radial-gradient(circle, rgb(167, 30, 180), rgb(55, 30, 180), rgb(32, 32, 32));
+}
+
+input{
+    font-size: 18px;
+}
+
+form button{
+    font-size: 13px;
+    cursor: pointer;
+}
+form{
+    text-align: center;
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+
+ul{
+
+    margin-top: 40px;
+    padding: 0px;
+    border: solid 1px #000;
+    max-width: 100%;
+    list-style: none;
+    min-height: 40vh;
+    gap: 10px;
+    
+}
+
+
+li{
+        color: #fff;
+    padding: 20px 8px;
+    font-size: 20px;
+    min-width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
