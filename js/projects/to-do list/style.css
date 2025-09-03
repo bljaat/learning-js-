@@ -1,35 +1,42 @@
-body{
+body {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    background: radial-gradient(circle, rgb(167, 30, 180), rgb(55, 30, 180), rgb(32, 32, 32));
 }
 
 
-.container{
+.container {
     width: 1140px;
     margin: auto;
     display: flex;
     justify-content: center;
-      background: radial-gradient(circle, rgb(167, 30, 180), rgb(55, 30, 180), rgb(32, 32, 32));
 }
 
-input{
+input {
     font-size: 18px;
 }
 
-form button{
+form button {
     font-size: 13px;
     cursor: pointer;
 }
-form{
+
+
+.outer{
+    padding: 30px;
+}
+form {
+    width: 42%;
     text-align: center;
-    margin-top: 20px;
+    margin: 50px;
     background-color: #fff;
+    border-radius: 20px;
 }
 
 
-ul{
-
+ul {
+    display: none;
     margin-top: 40px;
     padding: 0px;
     border: solid 1px #000;
@@ -41,13 +48,11 @@ ul{
 }
 
 
-li{
-        color: #fff;
+li {
+    color: #000;
     padding: 20px 8px;
     font-size: 20px;
     min-width: 400px;
     display: flex;
     justify-content: space-between;
 }
-
-
