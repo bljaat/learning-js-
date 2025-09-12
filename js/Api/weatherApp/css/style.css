@@ -1,0 +1,17 @@
+body{
+    padding: 0;
+    margin: auto;
+    text-align: center;
+
+}
+
+
+.weather{
+    margin-bottom: 40px;
+}
+.weather-data{
+    margin-top: 30px;
+    margin: auto;
+    width: 30%;
+    color: #fff;
+}
