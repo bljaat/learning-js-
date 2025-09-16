@@ -44,6 +44,13 @@ button.addEventListener("click", () => {
             clouds.innerHTML = response.weather[0].main.toLowerCase()
             clouds.style.margin = "0px"
 
+            let p = document.createElement("p")
+            p.innerHTML = "wind-speed"+  "=" + response.wind.speed
+            p.style.margin = "0px"
+
+            let humidity = document.createElement("p")
+            humidity.innerHTML = "humidity"+  "=" + response.main.humidity
+            humidity.style.margin = "0px"
 
             let image = document.createElement("img");
             if (response.weather[0].main.toLowerCase() === "rain") {
@@ -59,6 +66,8 @@ button.addEventListener("click", () => {
             data.appendChild(image);
             data.appendChild(city);
             data.appendChild(clouds);
+            data.appendChild(p);
+            data.appendChild(humidity);
             weatherData.appendChild(data);
 
 
