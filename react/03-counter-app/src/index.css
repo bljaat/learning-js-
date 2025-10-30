@@ -1,0 +1,29 @@
+body{
+  background: #252525;
+  margin: 200px;
+  text-align: center;
+}
+
+.counterapp{
+  width: 50%;
+  margin: auto;
+  background: #fff;
+}
+
+h2{
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+  background: red;
+  color: #fff;
+}
+
+p{
+  font-size: 20px;
+  color: #000;
+}
+
+button{
+  padding: 6px 20px;
+  margin:10px;
+}

@@ -1,0 +1,15 @@
+.logo{font-size: 2rem;font-weight: 700;margin: 0px;}
+
+ul{font-weight: 500;margin: 0px;}
+
+li{
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 8px 18px;
+}
+
+li:hover{
+    color:#000;
+    background: #fff;
+    cursor: pointer;
+}

@@ -1,0 +1,47 @@
+.header-class {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.form{
+  width: 22%;
+  margin: auto;
+  text-align: center;
+  background: #c1c1c1;
+  padding: 20px 50px;
+  border-radius: 20px;
+}
+
+.form input{
+  padding: 10px 30px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  font-size: 17px;
+  border: none;
+  outline: none;
+}
+
+.form button{
+  background: green;
+  padding: 8px 30px;
+  font-size: 20px;
+  border: none;
+  color: #fff;
+  border-radius: 10px;
+
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  display: none; 
+}
